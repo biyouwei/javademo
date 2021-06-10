@@ -1,20 +1,18 @@
 package com.example.demo;
 
+import com.fasterxml.jackson.databind.util.JSONPObject;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.ApplicationContextInitializer;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @SpringBootApplication
 public class DemoApplication {
 
-    public static void main(String args) {
+    public static void main(String[] args) {
         ApplicationContext app =SpringApplication.run(DemoApplication.class, args);
         int beanDefinitionCount = app.getBeanDefinitionCount();
         String[] beanDefinitionNames = app.getBeanDefinitionNames();
