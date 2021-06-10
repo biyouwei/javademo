@@ -34,6 +34,7 @@ public class SkipList<T> {
              * 跳跃表按照这个分数值进行从小到大排序。
              */
             Integer score;
+
             /**
              * next指针，指向下一层的指针
              */
