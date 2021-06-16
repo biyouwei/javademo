@@ -15,6 +15,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class IndexController {
 
 
+
     AtomicInteger aa = new AtomicInteger();
     HashMap hashMap=new HashMap();
     @RequestMapping(value = "/index")
