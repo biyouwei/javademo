@@ -16,6 +16,9 @@ public class GlobalError11Controller implements ErrorController {
 
     private final static String ERROR_PATH = "/error";
 
+
+
+
     /*@RequestMapping(path  = ERROR_PATH )
     public String error(HttpServletRequest request, HttpServletResponse response){
         LOGGER.info("访问/error" + "  错误代码："  + response.getStatus());
