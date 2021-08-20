@@ -256,14 +256,14 @@ public class Httputils {
 
     public static void main(String[] args) {
 
-        String url = "http://test-api-accel.shalltry.com/ab";
+        String url = "http://com.shallzxcry.com/ab";
         Map<String, Object> param = new HashMap<String, Object>();
-        param.put("gaid", "1764e401-fb78-47a4-abfe-b689b7be33bd");
+        param.put("id", "1764e401-fb78-47a4-abfe-b689b7bzxc33bd");
         param.put("project_id", 15);
 
         Map<String,String> headers = new HashMap();
         headers.put("Content-Type", "application/json;charset=utf-8");
-        headers.put("x-api-key", "qkCs8es.Mw1WtrLR6NBrXGqlGJyna9d7");
+        headers.put("api-key", "cxzczvcvzxzczcxzczv");
 
         String result = Httputils.postRequest(url,headers, param);
         System.out.println(result);
